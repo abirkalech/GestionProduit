@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EcoSystem.jnlp">
+  <information>
+    <title>EcoSystem</title>
+    <vendor>Abir</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EcoSystem.jar" size="39288317" download="eager" />
+    <jar href="lib\CLDC11.jar" size="2264815" download="eager" />
+    <jar href="lib\CodenameOne.jar" size="5915433" download="eager" />
+    <jar href="lib\cn1css-ant-task.jar" size="223016" download="eager" />
+    <jar href="lib\common-lang3.jar" size="646680" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EcoSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ecosystem.EcoSystem"  name="EcoSystem" />
+  <update check="always"/>
+</jnlp>
